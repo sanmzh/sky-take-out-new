@@ -47,4 +47,7 @@ public interface EmployeeMapper {
  * @return Page<Employee> 返回一个分页对象，包含员工数据列表和分页信息
  */
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+
+    void update(Employee employee);
+
 }
